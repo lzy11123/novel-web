@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的收藏",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "tab-top": "/components/tab-top",
+    "search-box": "/components/search-box",
+    "collect-item": "/components/collect-item"
+  }
+}

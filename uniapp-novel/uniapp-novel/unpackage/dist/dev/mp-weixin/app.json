@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cate/cate",
+    "pages/collection/collection",
+    "pages/my/my",
+    "pages/read-list/read-list",
+    "pages/book-detail/book-detail",
+    "pages/reading/reading",
+    "pages/login/login",
+    "pages/search/search",
+    "pages/hot-list/hot-list",
+    "pages/new-list/new-list",
+    "pages/cate-list/cate-list",
+    "pages/userinfo/userinfo",
+    "pages/password/password"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "titleNView": false
+  },
+  "tabBar": {
+    "backgroundColor": "#f4f7fc",
+    "borderStyle": "white",
+    "selectedColor": "#003366",
+    "color": "#cccccc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-s.png"
+      },
+      {
+        "pagePath": "pages/cate/cate",
+        "text": "分类",
+        "iconPath": "static/tabbar/cate.png",
+        "selectedIconPath": "static/tabbar/cate-s.png"
+      },
+      {
+        "pagePath": "pages/collection/collection",
+        "text": "收藏",
+        "iconPath": "static/tabbar/collect.png",
+        "selectedIconPath": "static/tabbar/collect-s.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/my-s.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "iconfont": "/components/iconfont"
+  }
+}

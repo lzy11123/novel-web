@@ -1,0 +1,146 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+
+			}
+		}, {
+			"path": "pages/cate/cate",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/collection/collection",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/read-list/read-list",
+			"style": {
+				"navigationBarTitleText": "最新排行",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/book-detail/book-detail",
+			"style": {
+				"navigationBarTitleText": "图书详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/reading/reading",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录注册",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/hot-list/hot-list",
+			"style": {
+				"navigationBarTitleText": "热门推荐",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/new-list/new-list",
+			"style": {
+				"navigationBarTitleText": "最新上架",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/cate-list/cate-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userinfo/userinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/password/password",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"titleNView": false
+
+	},
+	"tabBar": {
+		"backgroundColor": "#f4f7fc",
+		"borderStyle": "white",
+		"selectedColor": "#003366",
+		"color": "#cccccc",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-s.png"
+			},
+			{
+				"pagePath": "pages/cate/cate",
+				"text": "分类",
+				"iconPath": "static/tabbar/cate.png",
+				"selectedIconPath": "static/tabbar/cate-s.png"
+			},
+			{
+				"pagePath": "pages/collection/collection",
+				"text": "收藏",
+				"iconPath": "static/tabbar/collect.png",
+				"selectedIconPath": "static/tabbar/collect-s.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/my-s.png"
+			}
+		]
+	}
+}

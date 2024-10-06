@@ -1,0 +1,9 @@
+.geryTheme {
+  background-color: #a8b0c3;
+}
+.book-btn {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+}
+

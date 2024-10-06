@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "search-box": "/components/search-box",
+    "swiper-slide": "/components/swiper-slide",
+    "function-cate": "/components/function-cate",
+    "list-title": "/components/list-title",
+    "recommond": "/components/recommond",
+    "book-list": "/components/book-list"
+  }
+}
